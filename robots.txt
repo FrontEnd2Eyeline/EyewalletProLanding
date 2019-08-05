@@ -1,0 +1,5 @@
+# Allows All Robots
+User-agent: *
+Disallow: 
+Sitemap: https://eyewalletpro.com/
+

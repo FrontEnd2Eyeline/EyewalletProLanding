@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1238" height="671" viewBox="0 0 1238 671">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_18" data-name="Rectángulo 18" width="1238" height="671" transform="translate(-75.953 -91.757)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Trazado_4" x="232.189" y="130.503" width="468.675" height="756.137" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="35" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.431"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_5" x="79.951" y="130.503" width="467.372" height="756.137" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="35" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.431"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_6" x="343.207" y="87.004" width="688.94" height="843.135" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.431"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_90" data-name="Grupo 90" transform="translate(75.953 91.757)">
+    <g id="Enmascarar_grupo_2" data-name="Enmascarar grupo 2" clip-path="url(#clip-path)">
+      <g id="Grupo_13" data-name="Grupo 13" transform="translate(108.998 143.746)" opacity="0.957">
+        <g id="Grupo_12" data-name="Grupo 12">
+          <g transform="matrix(1, 0, 0, 1, -184.95, -235.5)" filter="url(#Trazado_4)">
+            <path id="Trazado_4-2" data-name="Trazado 4" d="M179.169,389.133a14.539,14.539,0,0,1-1.131-16.609l147.2-244.343L266.748,55.088a4.381,4.381,0,0,0-7.17.476L68.645,372.523a14.538,14.538,0,0,0,1.123,16.609L226.407,583.811a42.064,42.064,0,0,0,68.926-4.689l15.65-26.151Z" transform="translate(270.63 182.06)" fill="#fff"/>
+          </g>
+          <g id="Grupo_11" data-name="Grupo 11">
+            <g transform="matrix(1, 0, 0, 1, -184.95, -235.5)" filter="url(#Trazado_5)">
+              <path id="Trazado_5-2" data-name="Trazado 5" d="M157.376,389.133a14.525,14.525,0,0,1-1.123-16.609L304.419,126.55,247.234,55.088a4.381,4.381,0,0,0-7.17.476L49.13,372.523a14.526,14.526,0,0,0,1.131,16.609L206.892,583.811a42.064,42.064,0,0,0,68.926-4.689L290.5,554.595Z" transform="translate(137.9 182.06)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -184.95, -235.5)" filter="url(#Trazado_6)">
+          <path id="Trazado_6-2" data-name="Trazado 6" d="M474.195,289.584l-12.638-15.79-6.475-8.09-26.626-33.289-.039-.031-33.445-41.8-.086-.133L371,160.626l-.023-.023L337.7,119h0l-12.272-15.338-7.614-9.51h0l-31.261-39.07a4.378,4.378,0,0,0-7.17.484L193.13,198.752l-5.773,9.6-98.9,164.175a14.538,14.538,0,0,0,1.116,16.617L246.212,583.81a42.068,42.068,0,0,0,68.934-4.7l160.5-268.208A18.71,18.71,0,0,0,474.195,289.584Z" transform="translate(405.34 182.06)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

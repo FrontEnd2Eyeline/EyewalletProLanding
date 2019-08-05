@@ -1,0 +1,1806 @@
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias/CeliasW05-Bold.woff'); 
+}
+
+@font-face {
+    font-family: 'Celias Regular';
+    src: url('../fonts/celias/CeliasW05-Regular.woff'); 
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaRegular.otf'); 
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/proxima-nova/proxima-nova-semibold.woff'); 
+}
+
+@font-face {
+    font-family: 'Grifo';
+    src: url('../fonts/Grifo-Regular.ttf'); 
+}
+
+@font-face{
+    font-family: 'Eyewallet';
+    src: url('../img/minilogo.svg')
+}
+
+.language {
+    grid-area: 1/3/2/4;
+    background: transparent;
+    color: white;
+    border-radius: 50px;
+    font-size: 1vw;
+    width: 8vw;
+    height: 2vw;
+    align-self: center;
+    justify-self: end;
+    margin-right: 5vw;
+}
+
+
+
+.us {
+    width: 50%
+}
+
+.ux {
+    width: 50%
+}
+
+.safety {
+    width: 50%
+}
+
+.text-us {
+    grid-area: 2/3/2/4;
+    padding: 2vw 0vw;
+}
+
+.text-safety {
+    grid-area: 2/3/2/4;
+    padding: 12vw 0vw;
+}
+
+.btnAboutUs {
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+    font-size: 1vw;
+    padding: 2% 8%;
+    border-color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0vw 13vw;
+}
+
+.move-joinus {
+    grid-area: 2/2/3/3;
+    color: white;
+    font-family: 'Proxima Nova Regular', sans-serif;
+    font-size: 3vw;
+    align-self: center;
+    justify-self: center;
+}
+
+.btnFooter {
+    color: #5C64F2;
+    background: white;
+    border-radius: 30px;
+    font-size: 70%;
+    font-weight: bolder;
+    padding: 7% 20%;
+    border-color: white;
+    transform: translate(0%, 50%);
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.footer-flex {
+    grid-area: 2/3/2/5;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-size: 2vw;
+}
+
+.text-joinus{
+    margin: 0px;
+}
+
+.new-exchange {
+    color: white;
+    font-family: 'Grifo',sans-serif;
+    font-weight: 200;
+    margin: 0px;
+    font-size: 3.4vw;
+}
+
+.unique {
+    color: white;
+    font-family: 'Grifo',sans-serif;
+    font-weight: 200;
+    margin: 0px;
+    font-size: 3.4vw;
+}
+
+.paragraph-us {
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1.4vw;
+}
+
+.paragraph-ux {
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1.4vw;
+    width: 100%;
+}
+
+.we {
+    color: white;
+    font-family: 'Proxima Nova Regular',sans-serif;
+    font-weight: 700;
+    font-size: 3.4vw;
+}
+
+.explorer {
+    display: grid;
+    grid-template: 5% 27% 6% 56% 6%/ auto 80% auto;
+    width: 100%;
+    height: 70vh;
+    background: white;
+}
+
+
+.welcome {
+    grid-area: 2/2/3/3;
+    font-family: 'Proxima Nova Bold', sans-serif;
+    color: #5B5BDE;
+    font-size: 251%;
+    font-weight: 700;
+}
+
+.welcome {
+    grid-area: 2/2/3/3;
+    font-family: 'Proxima Nova Bold', sans-serif;
+    color: #5B5BDE;
+    font-size: 2.3vw;
+    font-weight: 700;
+    margin: 3vw 0vw;
+} 
+
+
+.image {
+    grid-area: 4/2/4/2;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    align-self: center;
+}
+
+.nav-cards {
+    width: 100%;
+    height: 100%;
+}
+
+.max-content{
+    width: max-content;
+}
+
+.cryptoUs {
+    display: grid;
+    grid-template: 5% 90% 5% / auto 50% 40% auto;
+    width: 100vw;
+    height: 100vh;
+    background: #F3A663;
+}
+
+.cryptoUX{
+    display: grid;
+    grid-template: 5% 90% 5% / auto 50% 40% auto;
+    width: 100vw;
+    height: 100vh;
+    background: #2FC8CB;
+}
+
+.cryptoSafety{
+    display: grid;
+    grid-template: 5% 90% 5% / auto 50% 40% auto;
+    width: 100vw;
+    height: 100vh;
+    background: #5051E1;
+}
+
+
+.cryptoEyewallet {
+    display: grid;
+    grid-template: 7vh 78vh 5vw 31vh 8vh / auto 40vw 5vw 40vw auto;
+    width: 100%;
+    height: 133vh;
+    background: url(/img/bg-eyewallet.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.invite {
+    grid-area: 2/2/2/2;
+    align-self: center;
+    justify-self: center;
+}
+
+.invite-text {
+    color: white;
+    font-family: 'Proxima Nova Regular', sans-serif;
+    font-size: 3.4vw;
+    margin: 3vw 2.5vw;
+}
+
+.submit-ewll {
+    background: #4A81FF;
+    border: transparent;
+    color: white;
+    padding: 14px 60px;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: 4px 12px 32px -15px #2C85FF;
+    margin: 0vw 12.8vw;
+}
+
+.submit-pro {
+    background: white;
+    border: transparent;
+    color: #3B84E0;
+    padding: 14px 60px;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: 4px 12px 32px -15px #2C85FF;
+    margin: 0vw 12.8vw;
+}
+
+.hr-grid {
+    grid-area: 8/2/7/5;
+    margin: 0px;
+    border-width: 1px;
+    height: 0px;
+    width: 100%;
+}
+
+.logoFooter {
+    grid-area: 8/2/9/2;
+    width: 10vw;
+}
+
+.cryptoFooter {
+    display: grid;
+    grid-template: auto 42% 13% 5% 1% 15% 5% 8% auto / auto 31% 20% 20% auto;
+    width: 100vw;
+    height: 90vh;
+    background: #5051E1;
+}
+
+.card-ex{
+    display: flex;
+}
+
+.card-logos{
+    grid-area: 8/1/9/6;
+    justify-self: center;
+    width: 36vw
+}
+
+.copyright {
+    grid-area: 8/4/9/5;
+    justify-self: end;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1vw;
+    margin: 0px;
+}
+
+.terms-links {
+    grid-area: 4/2/5/5;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.social-links {
+    display: flex;
+    grid-area: 6/2/6/5;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.balls {
+    background: white;
+    margin: 1vw;
+    border-radius: 310px;
+    width: 70px;
+    height: 70px;
+}
+
+.terms-text {
+    color: white;
+    text-decoration: none;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 120%;
+    padding: 0vw 1vw;
+}
+
+.desktop {
+    grid-area: 2/4/3/5;
+    width: 70vw;
+}
+
+.pro {
+    grid-area: 4/4/5/5;
+    align-self: center;
+    justify-self: center;
+}
+
+.center-socials {
+    margin: 34% 33%;
+}
+
+.center-tel {
+    margin: 32% 38% 30% 30%;
+}
+
+.center-twi{
+    margin: 35% 30% 35% 30%;
+}
+
+
+
+.soon {
+    grid-area: 1/1/1/1;
+    color: white;
+    font-family: 'Celias';
+    font-size: 86%;
+    width: 22%;
+    height: 22%;
+    margin: 0px;
+    transform: translate(349%, 270%);
+}
+
+.input-ewll {
+    background: transparent;
+    border: 1px solid #7190F8;
+    border-radius: 20px;
+    height: 37px;
+    width: 78%;
+    font-size: 0.9vw;
+    color: #C6D7FF;
+    margin: 0vw 2.8vw;
+    padding: 0vw 0vw 0vw 1.8vw;
+}
+
+.input-ewll::placeholder {
+    color: #C6D7FF;
+    opacity: 0.5; 
+    margin-right: 4vw;
+    font-size: 0.9vw;
+}
+
+.input-pro {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 37px;
+    font-size: 0.9vw;
+    width: 78%;
+    color: #C6D7FF;
+    margin: 0vw 2.8vw;
+    padding: 0vw 0vw 0vw 1.8vw;
+}
+
+.input-pro::placeholder {
+    color: #C6D7FF;
+    opacity: 0.5; 
+    margin-right: 4vw;
+    font-size: 0.9vw;
+}
+
+.logo-pro {
+    grid-area: 3/1/5/5;
+    width: 60vw;
+}
+
+
+.home {
+    background: url(../img/main-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 10% 10% auto 45% auto/ 33.3% 33.3% 33.3%;
+}
+
+.coming:lang(es){
+        grid-area: 4/2/5/3;
+        color: white;
+        height: 63%;
+        width: 75%;
+        font-family: 'Celias', sans-serif;
+        font-weight: 700;
+        font-size: 1.9vw;
+        justify-self: center;
+        text-align: center;
+}
+
+.animari {
+    grid-area: 2/3/3/4;
+    width: 100%;
+    height: 100%;
+}
+
+.hand {
+    grid-area: 2/2/3/2;
+    width: 95%;
+    height: 80%;
+    padding: 5vw 1.2vw;
+}
+
+.danny {
+    grid-area: 2/3/3/4;
+    width: 500px;
+    height: 400px;
+    justify-self: center;
+    align-self: center;
+    padding: 10vw 0vw;
+    filter: drop-shadow(0px 0px 0px #D1FEFF);
+}
+
+.text-ux {
+    grid-area: 2/2/3/3;
+    padding: 12vw 4vw;
+}
+
+.flex {
+    display: flex;
+    grid-area: 1/1/3/4;
+    justify-self: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1.2vw;
+}
+
+.flex-footer {
+    display: flex;
+    grid-area: 1/1/1/1;
+    justify-self: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 132%;
+}
+.counter {
+    color: white;
+    align-self: center;
+    text-align: center;
+    font-weight: 100;
+    padding: 0 0.5vw;
+    transform: translate(0%, 25%);
+    font-family: 'Proxima Nova Regular', sans-serif;
+}
+
+.main-logo {
+    grid-area: 1/1/1/1;
+    width: 50%;
+    align-self: center;
+    justify-content: center;
+    padding: 3.6vw 1vw 1vw 2vw;
+}
+.owl {
+    grid-area: 3/2/4/3;
+    width: 606.43px;
+    height: 337.393px;
+    justify-self: center;
+}
+
+.coming{
+    grid-area: 4/2/5/3;
+    color: white;
+    height: 63%;
+    width: 63%;
+    font-family: 'Celias', sans-serif;
+    font-weight: 700;
+    font-size: 1.9vw;
+    justify-self: center;
+    text-align: center;
+}
+
+.mini-logo{
+    width: 1.4vw;
+    position: absolute;
+}
+
+.no-bold{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 200%;
+    transform: translate(0%,-90%)
+
+}
+
+.title-terms{
+    font-family: 'Proxima Nova', sans-serif;
+    color: #5B5BDE;
+    font-size: 8vh;
+}
+
+.body-terms{
+    font-family: 'Proxima Nova', sans-serif;
+    display: grid;
+    height: 100%;
+}
+.body-terms2{
+    font-family: 'Proxima Nova', sans-serif;
+    display: grid;
+    height: 100%;
+}
+.body-terms3{
+    font-family: 'Proxima Nova', sans-serif;
+    display: grid;
+    height: 100%;
+}
+.landing-section{
+    font-family: 'Proxima Nova', sans-serif;
+    padding: 5vh;
+    font-size: 2vh;
+}
+
+.new{
+    font-family: 'Grifo', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+}
+body {
+    margin: 0px
+}
+
+
+
+@media (max-width:1920px) and (min-width:1280px) {
+    .mobile-orange {
+        grid-area: 4/3/5/4;
+    }
+    .mobile-green {
+        grid-area: 4/4/5/5;
+    }
+    .mobile-purple {
+        grid-area: 4/5/5/5;
+    }
+    
+    .language {
+        grid-area: 1/3/2/4;
+        background: transparent;
+        color: white;
+        border-radius: 50px;
+        font-size: 1vw;
+        width: 8vw;
+        height: 2vw;
+        align-self: center;
+        justify-self: end;
+        margin-right: 5vw;
+    }
+    
+    
+    .us {
+        width: 50%
+    }
+    
+    .ux {
+        width: 50%
+    }
+    
+    .safety {
+        width: 50%
+    }
+    
+    .text-us {
+        grid-area: 2/3/2/4;
+        padding: 2vw 0vw;
+    }
+    
+    .text-safety {
+        grid-area: 2/3/2/4;
+        padding: 12vw 0vw;
+    }
+    
+    .btnAboutUs {
+        color: white;
+        background: transparent;
+        border-radius: 30px;
+        font-size: 1vw;
+        padding: 2% 8%;
+        border-color: white;
+        font-family: 'Proxima Nova', sans-serif;
+        margin: 0vw 13vw;
+    }
+    
+    .move-joinus {
+        grid-area: 2/2/3/3;
+        color: white;
+        font-family: 'Proxima Nova Regular', sans-serif;
+        font-size: 3vw;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .btnFooter {
+        color: #5C64F2;
+        background: white;
+        border-radius: 30px;
+        font-size: 70%;
+        font-weight: bolder;
+        padding: 7% 20%;
+        border-color: white;
+        transform: translate(0%, 50%);
+        font-family: 'Proxima Nova', sans-serif;
+    }
+    
+    .footer-flex {
+        grid-area: 2/3/2/5;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        font-size: 2vw;
+    }
+    
+    .text-joinus{
+        margin: 0px;
+    }
+    
+    .new-exchange {
+        color: white;
+        font-family: 'Grifo',sans-serif;
+        font-weight: 200;
+        margin: 0px;
+        font-size: 3.4vw;
+    }
+    
+    .unique {
+        color: white;
+        font-family: 'Grifo',sans-serif;
+        font-weight: 200;
+        margin: 0px;
+        font-size: 3.4vw;
+    }
+    
+    .paragraph-us {
+        color: white;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.4vw;
+    }
+    
+    .paragraph-ux {
+        color: white;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.4vw;
+        width: 100%;
+    }
+    
+    .we {
+        color: white;
+        font-family: 'Proxima Nova Regular',sans-serif;
+        font-weight: 700;
+        font-size: 3.4vw;
+    }
+    .explorer {
+        display: grid;
+        grid-template: 5% 27% 10% 56% 2%/ auto 10% 16.67% 16.67% 16.67% 10% auto;
+        width: 100%;
+        height: 70vh;
+        background: white;
+    }
+    .coming:lang(es){
+        grid-area: 4/2/5/3;
+        color: white;
+        height: 63%;
+        width: 75%;
+        font-family: 'Celias', sans-serif;
+        font-weight: 700;
+        font-size: 1.9vw;
+        justify-self: center;
+        text-align: center;
+    }
+    .welcome {
+        grid-area: 1/3/3/6;
+        font-family: 'Proxima Nova Bold', sans-serif;
+        color: #5B5BDE;
+        font-size: 2.3vw;
+        font-weight: 700;
+    }
+    
+    .where {
+        grid-area: 3/3/4/6;
+        color: #3F4155;
+        font-family: 'Grifo',sans-serif;
+        font-size: 2.5vw;
+        align-self: center;
+        font-weight: 100;
+        margin: 0px;
+    }
+    
+    
+    .image {
+        grid-area: 4/2/4/2;
+        width: 100%;
+        height: 100%;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .nav-cards {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .max-content{
+        width: max-content;
+    }
+    
+    .cryptoUs {
+        display: grid;
+        grid-template: 5% 90% 5% / auto 45% 40% auto;
+        width: 100vw;
+        height: 100vh;
+        background: #F3A663;
+    }
+    
+    .cryptoUX {
+        display: grid;
+        grid-template: 5% 90% 5% / auto 50% 37% auto;
+        width: 100vw;
+        height: 100vh;
+        background: #2FC8CB;
+    }
+    
+    .cryptoSafety{
+        display: grid;
+        grid-template: 5% 90% 5% / auto 50% 40% auto;
+        width: 100vw;
+        height: 100vh;
+        background: #5051E1;
+    }
+    .hand {
+        grid-area: 2/3/3/4;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cryptoEyewallet {
+        display: grid;
+        grid-template: 7vh 78vh 5vw 31vh 8vh / auto 40vw 5vw 40vw auto;
+        width: 100%;
+        height: 133vh;
+        background: url('/img/bg-eyewallet.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .invite {
+        grid-area: 2/2/2/2;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .invite-text {
+        color: white;
+        font-family: 'Proxima Nova Regular', sans-serif;
+        font-size: 3.4vw;
+        margin: 3vw 2.5vw;
+    }
+    
+    .submit-ewll {
+        background: #4A81FF;
+        border: transparent;
+        color: white;
+        padding: 14px 60px;
+        font-size: 25px;
+        border-radius: 20px;
+        box-shadow: 4px 12px 32px -15px #2C85FF;
+        margin: 0vw 12.8vw;
+    }
+    
+    .submit-pro {
+        background: white;
+        border: transparent;
+        color: #3B84E0;
+        padding: 14px 60px;
+        font-size: 25px;
+        border-radius: 20px;
+        box-shadow: 4px 12px 32px -15px #2C85FF;
+        margin: 0vw 12.8vw;
+    }
+    
+    .hr-grid {
+        grid-area: 8/2/7/5;
+        margin: 0px;
+        border-width: 1px;
+        height: 0px;
+        width: 100%;
+    }
+    
+    .logoFooter {
+        grid-area: 8/2/9/2;
+        width: 10vw;
+    }
+    
+    .cryptoFooter {
+        display: grid;
+        grid-template: auto 42% 13% 5% 1% 15% 5% 8% auto / auto 31% 20% 20% auto;
+        width: 100vw;
+        height: 90vh;
+        background: #5051E1;
+    }
+    
+    .card-ex{
+        display: flex;
+    }
+    
+    .card-logos{
+        grid-area: 8/1/9/6;
+        justify-self: center;
+        width: 36vw
+    }
+    
+    .copyright {
+        grid-area: 8/4/9/5;
+        justify-self: end;
+        color: white;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1vw;
+        margin: 0px;
+    }
+    
+    .terms-links {
+        grid-area: 4/2/5/5;
+        align-self: center;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .social-links {
+        display: flex;
+        grid-area: 6/2/6/5;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    
+    .balls {
+        background: white;
+        margin: 1vw;
+        border-radius: 310px;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .terms-text {
+        color: white;
+        text-decoration: none;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 120%;
+        padding: 0vw 1vw;
+    }
+    
+    .desktop {
+        grid-area: 2/4/3/5;
+        width: 70vw;
+    }
+    
+    .pro {
+        grid-area: 4/4/5/5;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .center-socials {
+        margin: 34% 33%;
+    }
+    
+    .center-tel {
+        margin: 32% 38% 30% 30%;
+    }
+    
+    .center-twi{
+        margin: 35% 30% 35% 30%;
+    }
+    
+    
+    
+    .soon {
+        grid-area: 1/1/1/1;
+        color: white;
+        font-family: 'Celias';
+        font-size: 86%;
+        width: 22%;
+        height: 22%;
+        margin: 0px;
+        transform: translate(349%, 270%);
+    }
+    
+    .input-ewll {
+        background: transparent;
+        border: 1px solid #7190F8;
+        border-radius: 20px;
+        height: 37px;
+        width: 78%;
+        font-size: 0.9vw;
+        color: #C6D7FF;
+        margin: 0vw 2.8vw;
+        padding: 0vw 0vw 0vw 1.8vw;
+    }
+    
+    .input-ewll::placeholder {
+        color: #C6D7FF;
+        opacity: 0.5; 
+        margin-right: 4vw;
+        font-size: 0.9vw;
+    }
+    
+    .input-pro {
+        background: transparent;
+        border: 1px solid white;
+        border-radius: 20px;
+        height: 37px;
+        font-size: 0.9vw;
+        width: 78%;
+        color: #C6D7FF;
+        margin: 0vw 2.8vw;
+        padding: 0vw 0vw 0vw 1.8vw;
+    }
+    
+    .input-pro::placeholder {
+        color: #C6D7FF;
+        opacity: 0.5; 
+        margin-right: 4vw;
+        font-size: 0.9vw;
+    }
+    
+    .logo-pro {
+        grid-area: 3/1/5/5;
+        width: 60vw;
+    }
+    
+    
+    .home {
+        background: url(../img/main-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template: 10% 10% auto 45% auto/ 33.3% 33.3% 33.3%;
+    }
+    .animari {
+        grid-area: 2/2/3/2;
+        width: 100%;
+        height: 85%;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .hand {
+        grid-area: 2/2/3/2;
+        width: 95%;
+        height: 80%;
+        padding: 5vw 1.2vw;
+    }
+    
+    .danny {
+        grid-area: 2/3/3/4;
+        width: 90%;
+        height: 50%;
+        justify-self: center;
+        align-self: center;
+        padding: 10vw 0vw;
+        filter: drop-shadow(0px 0px 0px #D1FEFF);
+    }
+    .text-ux {
+        grid-area: 2/2/3/3;
+        padding: 12vw 4vw;
+    }
+    
+    .flex {
+        display: flex;
+        grid-area: 1/1/3/4;
+        justify-self: center;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.2vw;
+    }
+    
+    .flex-footer {
+        display: flex;
+        grid-area: 1/1/1/1;
+        justify-self: center;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 132%;
+    }
+    .counter {
+        color: white;
+        align-self: center;
+        text-align: center;
+        font-weight: 100;
+        padding: 0 0.5vw;
+        transform: translate(0%, 25%);
+        font-family: 'Proxima Nova Regular', sans-serif;
+    }
+    
+    .main-logo {
+        grid-area: 1/1/1/1;
+        width: 50%;
+        align-self: center;
+        justify-content: center;
+        padding: 3.6vw 1vw 1vw 2vw;
+    }
+    .owl {
+        grid-area: 3/2/4/3;
+        width: 606.43px;
+        height: 337.393px;
+        justify-self: center;
+    }
+    
+    .coming{
+        grid-area: 4/2/5/3;
+        color: white;
+        height: 63%;
+        width: 63%;
+        font-family: 'Celias', sans-serif;
+        font-weight: 700;
+        font-size: 1.9vw;
+        justify-self: center;
+        text-align: center;
+    }
+    
+    .mini-logo{
+        width: 1.4vw;
+        position: absolute;
+    }
+    
+    .no-bold{
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 200%;
+        transform: translate(0%,-90%)
+    
+    }
+    
+    .new{
+        font-family: 'Grifo', sans-serif;
+        font-weight: 400;
+        font-size: 2vw;
+    }
+    body {
+        margin: 0px
+    }
+}
+
+@media (max-width:1279px) and (min-width:768px) {
+    .move-joinus {
+        grid-area: 1/2/3/5;
+        color: white;
+        font-family: 'Proxima Nova Regular', sans-serif;
+        font-size: 10vw;
+        align-self: center;
+        justify-self: center;
+    }
+    .submit-pro{
+        background: white;
+        border: transparent;
+        color: #4061C5;
+        padding: 14px 60px;
+        font-size: 5vw;
+        border-radius: 70px;
+        box-shadow: 4px 12px 32px -15px #2C85FF;
+        margin: 0vw 20.8vw;
+    }
+    .submit-ewll {
+        background: #4A81FF;
+        border: transparent;
+        color: white;
+        padding: 14px 60px;
+        font-size: 5vw;
+        border-radius: 70px;
+        box-shadow: 4px 12px 32px -15px #2C85FF;
+        margin: 0vw 20.8vw;
+    }
+    #countdown{
+        display: none
+    }
+    .input-ewll {
+        background: transparent;
+        border: 4px solid #FFFFFF;
+        border-radius: 70px;
+        height: 97px;
+        width: 90%;
+        font-size: 4.9vw;
+        color: white;
+        margin: 0vw 2.8vw;
+        padding: 0vw 0vw 0vw 1.8vw;
+    }
+    .input-ewll::placeholder {
+        color: #FFFFFF;
+        opacity: 1; 
+        font-size: 4vw;
+    }
+    .input-pro {
+        background: transparent;
+        border: 4px solid #FFFFFF;
+        border-radius: 70px;
+        height: 97px;
+        width: 90%;
+        font-size: 4.9vw;
+        color: white;
+        margin: 0vw 2.8vw;
+        padding: 0vw 0vw 0vw 1.8vw;
+    }
+    
+    .input-pro::placeholder {
+        color: #FFFFFF;
+        opacity: 1; 
+        font-size: 4vw;
+    }
+
+    .pro {
+        grid-area: 8/2/8/3;
+        align-self: center;
+        justify-self: center;
+    }
+    .logo-pro {
+        grid-area: 6/1/7/4;
+        width: 100vw;
+        justify-self: center;
+        margin-left: 5vw;
+        align-self: center;
+    }
+    .desktop {
+        grid-area: 2/2/3/3;
+        width: 90%;
+        justify-self: center;
+    }
+    .invite {
+        grid-area: 4/2/5/3;
+        align-self: center;
+        justify-self: center;
+    }
+    .invite-text {
+        color: white;
+        font-family: 'Proxima Nova Regular', sans-serif;
+        font-size: 7.4vw;
+        margin: 0vw;
+    }
+    .cryptoEyewallet {
+        display: grid;
+        grid-template: auto 15% 3% 22% 5% 15% 3% 20% auto/ auto 80% auto;
+        width: 100%;
+        height: 203vh;
+        background: url(/img/bg-eyewallet.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .text-us {
+        grid-area: 3/3/3/4;
+        padding: 2vw 0vw;
+    }
+    .mobile-orange {
+        grid-area: 1/3/2/4;
+    }
+    .mobile-green {
+        grid-area: 3/2/2/2;
+    }
+    .mobile-purple {
+        grid-area: 3/1/3/1;
+    }
+    .mobile-purple {
+        grid-area: 3/1/3/1;
+    }
+    .text-safety {
+        grid-area: 3/2/4/3;
+        padding: 12vw 0vw;
+    }
+
+    .cryptoSafety {
+        display: grid;
+        grid-template: auto 60vh 120vh auto /auto 65vh auto;
+        width: 100vw;
+        height: 200vh;
+    }
+    
+    .home {
+        background: url(../img/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template: 10% 10% auto 45% auto/ 33.3% 33.3% 33.3%;
+    }
+    
+    .mini-logo{
+        width: 3vw;
+        position: absolute;
+    }
+    .soon {
+        display: none;
+    }
+    .owl {
+        grid-area: 3/1/4/4;
+        width: 520px;
+        height: 360px;
+        justify-self: center;
+    }
+    .welcome {
+        grid-area: 1/1/1/3;
+        font-family: 'Proxima Nova Bold', sans-serif;
+        color: #2F3873;
+        font-size: 2.5vw;
+        font-weight: 700;
+        align-self: start;
+    }
+    .where {
+        grid-area: 1/1/1/3;
+        color: #3F4155;
+        font-family: 'Grifo',sans-serif;
+        font-size: 3vw;
+        align-self: center;
+        font-weight: 100;
+        margin: 0px;
+    }
+    .explorer {
+        display: grid;
+        grid-template: 33% 34% 33% /34% 33% 33%;
+        width: 70%;
+        height: 100%;
+        background: white;
+        align-items: center;
+        margin: 6vw 15vw;
+    }
+    .coming {
+        grid-area: 4/1/5/4;
+        color: white;
+        height: 100%;
+        width: 100%;
+        font-family: 'Celias', sans-serif;
+        font-weight: 700;
+        font-size: 6vw;
+        justify-self: center;
+        margin: 0px;
+        text-align: center;
+    }
+    .coming:lang(es){
+        grid-area: 4/1/5/4;
+        color: white;
+        height: 100%;
+        width: 100%;
+        font-family: 'Celias', sans-serif;
+        font-weight: 700;
+        font-size: 6vw;
+        justify-self: center;
+        margin: 0px;
+        text-align: center;
+}
+    .new {
+        font-family: 'Grifo', sans-serif;
+        font-weight: 400;
+        font-size: 5vw;
+    }
+    .flex {
+        display: flex;
+        grid-area: 2/1/3/5;
+        justify-self: center;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 2.2vw;
+    }
+
+    .language {
+        grid-area: 1/3/2/4;
+        background: transparent;
+        color: white;
+        border-radius: 50px;
+        font-size: 3vw;
+        width: 13vw;
+        height: 5vw;
+        align-self: center;
+        justify-self: end;
+        margin-right: 5vw;
+    }
+
+    .counter {
+        color: white;
+        align-self: center;
+        text-align: center;
+        font-weight: 100;
+        padding: 0 1.5vw;
+        transform: translate(6%, 25%);
+        font-family: 'Proxima Nova Regular', sans-serif;
+    }
+    .main-logo {
+        grid-area: 1/2/1/3;
+        width: 100%;
+        align-self: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    .soon {
+        display: none;
+    }
+    .animari {
+        grid-area: 2/2/3/3;
+        width: 100%;
+        height: 100%;
+    }
+    .we {
+        color: white;
+        font-family: 'Proxima Nova Regular',sans-serif;
+        font-weight: 700;
+        font-size: 9.4vw;
+    }
+    .new-exchange {
+        color: white;
+        font-family: 'Grifo',sans-serif;
+        font-weight: 200;
+        margin: 0px;
+        font-size: 7.9vw;
+    }
+    .text-us {
+        grid-area: 3/2/4/3;
+        padding: 2vw 0vw;
+    }
+    .cryptoUs {
+        display: grid;
+        grid-template: auto 60vh 120vh auto /auto 65vh auto;
+        width: 100vw;
+        height: 200vh;
+        background: #F3A663;
+    }
+    .btnAboutUs {
+        color: white;
+        background: transparent;
+        border-radius: 77px;
+        font-size: 5vw;
+        padding: 2% 8%;
+        border-color: white;
+        border-width: 0.4vw;
+        font-family: 'Proxima Nova', sans-serif;
+        margin: 0vw 21vw;
+    }
+    .paragraph-us {
+        color: white;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 4.4vw;
+    }
+
+    .cryptoUX{
+        display: grid;
+        grid-template: auto 60vh 120vh auto /auto 65vh auto;
+        width: 100vw;
+        height: 200vh;
+    }
+    .danny {
+        grid-area: 2/2/3/3;
+        width: 80%;
+        height: 68%;
+    }
+    .paragraph-ux {
+        color: white;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 4.4vw;
+    }
+    .text-ux {
+        grid-area: 3/2/3/3;
+        padding: 12vw 4vw;
+    }
+    .unique {
+        color: white;
+        font-family: 'Grifo',sans-serif;
+        font-weight: 200;
+        margin: 0px;
+        font-size: 7.4vw;
+    }
+    .btnAboutUs {
+        color: white;
+        background: transparent;
+        border-radius: 77px;
+        font-size: 4.7vw;
+        padding: 2% 8%;
+        border-color: white;
+        border-width: 0.4vw;
+        font-family: 'Proxima Nova', sans-serif;
+        align-self: end;
+        justify-self: center;
+        margin-left: 16vw;
+    }
+    .hand {
+        grid-area: 2/2/3/2;
+        width: 90%;
+        align-self: center;
+        justify-self: center;
+        height: 80%;
+        padding: 5vw 1.2vw;
+    }
+
+}
+
+@media (max-width:767px) and (min-width:320px) {
+.center-tel {
+    margin: 21% 20% 21% 20%;
+}
+.center-twi {
+    margin: 32% 23% 30% 25%;
+}
+.center-socials {
+    margin: 24% 0%;
+    }
+.balls {
+    background: white;
+    margin: 1vw;
+    border-radius: 310px;
+    width: 15vw;
+    height: 15vw;
+    }
+.move-joinus {
+    grid-area: 1/2/3/5;
+    color: white;
+    font-family: 'Proxima Nova Regular', sans-serif;
+    font-size: 10vw;
+    align-self: center;
+    justify-self: center;
+}
+.submit-pro{
+    background: white;
+    border: transparent;
+    color: #4061C5;
+    padding: 14px 60px;
+    font-size: 5vw;
+    border-radius: 70px;
+    box-shadow: 4px 12px 32px -15px #2C85FF;
+    margin: 0vw 20.8vw;
+}
+.submit-ewll {
+    background: #4A81FF;
+    border: transparent;
+    color: white;
+    padding: 14px 60px;
+    font-size: 5vw;
+    border-radius: 70px;
+    box-shadow: 4px 12px 32px -15px #2C85FF;
+    margin: 0vw 20.8vw;
+}
+#countdown{
+    display: none
+}
+.input-ewll {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 70px;
+    height: 37px;
+    width: 90%;
+    font-size: 4.9vw;
+    color: white;
+    margin: 0vw 2.8vw;
+    padding: 0vw 0vw 0vw 1.8vw;
+}
+.input-ewll::placeholder {
+    color: #FFFFFF;
+    opacity: 1; 
+    font-size: 4vw;
+}
+.input-pro {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 70px;
+    height: 44px;
+    width: 90%;
+    font-size: 4.9vw;
+    color: white;
+    margin: 0vw 2.8vw;
+    padding: 0vw 0vw 0vw 1.8vw;
+}
+
+.input-pro::placeholder {
+    color: #FFFFFF;
+    opacity: 1; 
+    font-size: 4vw;
+}
+
+.pro {
+    grid-area: 8/2/8/3;
+    align-self: center;
+    justify-self: center;
+}
+.logo-pro {
+    grid-area: 6/1/7/4;
+    width: 100vw;
+    justify-self: center;
+    margin-left: 5vw;
+    align-self: center;
+}
+.desktop {
+    grid-area: 2/2/3/3;
+    width: 90%;
+    justify-self: center;
+}
+.invite {
+    grid-area: 4/2/5/3;
+    align-self: center;
+    justify-self: center;
+}
+.invite-text {
+    color: white;
+    font-family: 'Proxima Nova Regular', sans-serif;
+    font-size: 8.5vw;
+    margin: 0vw;
+}
+.cryptoEyewallet {
+    display: grid;
+    grid-template: auto 15% 3% 22% 5% 15% 3% 20% auto/ auto 80% auto;
+    width: 100%;
+    height: 203vh;
+    background: url(/img/bg-eyewallet.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.text-us {
+    grid-area: 3/3/3/4;
+    padding: 2vw 0vw;
+}
+.mobile-orange {
+    grid-area: 1/3/2/4;
+}
+.mobile-green {
+    grid-area: 3/2/2/2;
+}
+.mobile-purple {
+    grid-area: 3/1/3/1;
+}
+.mobile-purple {
+    grid-area: 3/1/3/1;
+}
+.text-safety {
+    grid-area: 3/2/4/3;
+    padding: 12vw 0vw;
+}
+
+.cryptoSafety {
+    display: grid;
+    grid-template: auto 50vh 120vh auto /auto 45vh auto;
+    width: 100vw;
+    height: 224vw;
+}
+
+.home {
+    background: url(../img/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 10% 10% auto 45% auto/ 33.3% 33.3% 33.3%;
+}
+
+.mini-logo{
+    width: 3vw;
+    position: absolute;
+}
+.soon {
+    display: none;
+}
+.owl {
+    grid-area: 3/1/4/4;
+    width: 81vw;
+    height: 52vw;
+    justify-self: center;
+}
+.welcome {
+    grid-area: 1/1/1/3;
+    font-family: 'Proxima Nova Bold', sans-serif;
+    color: #2F3873;
+    font-size: 2.5vw;
+    font-weight: 700;
+    align-self: start;
+}
+.where {
+    grid-area: 1/1/1/3;
+    color: #3F4155;
+    font-family: 'Grifo',sans-serif;
+    font-size: 3vw;
+    align-self: center;
+    font-weight: 100;
+    margin: 0px;
+}
+.explorer {
+    display: grid;
+    grid-template: 33% 34% 33% /34% 33% 33%;
+    width: 70%;
+    height: 100%;
+    background: white;
+    align-items: center;
+    margin: 6vw 15vw;
+}
+.coming {
+    grid-area: 4/1/5/4;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-family: 'Celias', sans-serif;
+    font-weight: 700;
+    font-size: 6vw;
+    justify-self: center;
+    margin: 0px;
+    text-align: center;
+}
+.coming:lang(es){
+    grid-area: 4/1/5/4;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-family: 'Celias', sans-serif;
+    font-weight: 700;
+    font-size: 6vw;
+    justify-self: center;
+    margin: 0px;
+    text-align: center;
+}
+.new {
+    font-family: 'Grifo', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+}
+.flex {
+    display: flex;
+    grid-area: 2/1/3/5;
+    justify-self: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 2.2vw;
+}
+
+.language {
+    grid-area: 1/3/2/4;
+    background: transparent;
+    color: white;
+    border-radius: 50px;
+    font-size: 3vw;
+    width: 16vw;
+    height: 5vw;
+    align-self: center;
+    justify-self: end;
+    margin-right: 5vw;
+}
+
+.counter {
+    color: white;
+    align-self: center;
+    text-align: center;
+    font-weight: 100;
+    padding: 0 1.5vw;
+    transform: translate(6%, 25%);
+    font-family: 'Proxima Nova Regular', sans-serif;
+}
+.main-logo {
+    grid-area: 1/2/1/3;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    padding: 0px;
+}
+.soon {
+    display: none;
+}
+.animari {
+    grid-area: 2/2/3/3;
+    width: 100%;
+    height: 100%;
+}
+.we {
+    color: white;
+    font-family: 'Proxima Nova Regular',sans-serif;
+    font-weight: 700;
+    font-size: 9vw;
+}
+.new-exchange {
+    color: white;
+    font-family: 'Grifo',sans-serif;
+    font-weight: 200;
+    margin: 0px;
+    font-size: 7.9vw;
+}
+.text-us {
+    grid-area: 3/2/4/3;
+    padding: 2vw 0vw;
+}
+.cryptoUs {
+    display: grid;
+    grid-template: auto 50vh 120vh auto /auto 45vh auto;
+    width: 100vw;
+    height: 280vw;
+    background: #F3A663;
+}
+.btnAboutUs {
+    color: white;
+    background: transparent;
+    border-radius: 77px;
+    font-size: 5vw;
+    padding: 2% 8%;
+    border-color: white;
+    border-width: 0.4vw;
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0vw 21vw;
+}
+.paragraph-us {
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 4.4vw;
+}
+
+.cryptoUX {
+    display: grid;
+    grid-template: auto 50vh 120vh auto /auto 45vh auto;
+    width: 100vw;
+    height: 240vw;
+}
+.danny {
+    grid-area: 2/2/3/3;
+    width: 80%;
+    height: 68%;
+}
+.paragraph-ux {
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 4.4vw;
+}
+.text-ux {
+    grid-area: 3/2/3/3;
+    padding: 12vw 4vw;
+}
+.unique {
+    color: white;
+    font-family: 'Grifo',sans-serif;
+    font-weight: 200;
+    margin: 0px;
+    font-size: 7.4vw;
+}
+.btnAboutUs {
+    color: white;
+    background: transparent;
+    border-radius: 77px;
+    font-size: 4.7vw;
+    padding: 2% 8%;
+    border-color: white;
+    border-width: 0.4vw;
+    font-family: 'Proxima Nova', sans-serif;
+    align-self: end;
+    justify-self: center;
+    margin-left: 16vw;
+}
+.hand {
+    grid-area: 2/2/3/2;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    height: 80%;
+    padding: 5vw 1.2vw;
+}
+
+}
